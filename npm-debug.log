@@ -1,0 +1,1053 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular',
+5 verbose install   [ 'hapi',
+5 verbose install     'path',
+5 verbose install     'connect-modrewrite',
+5 verbose install     'es5-shim',
+5 verbose install     'grunt',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-hapi' ] ]
+6 info preinstall bloc-frontend-project-starter@0.0.2
+7 warn package.json dateformat@1.0.2-1.2.3 No repository field.
+8 warn package.json faye-websocket@0.4.4 'repositories' (plural) Not supported.
+8 warn package.json Please pick one as the 'repository' field
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping connect-modrewrite@^0.7.9 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+11 verbose already installed skipping hapi@~7.5.0 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+12 verbose already installed skipping path@^0.4.9 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+13 verbose already installed skipping es5-shim@^4.0.1 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+14 verbose already installed skipping grunt@~0.4.5 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+15 verbose already installed skipping grunt-contrib-watch@^0.6.1 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+16 verbose already installed skipping grunt-cli@^0.1.13 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+17 verbose already installed skipping grunt-hapi@^0.8.1 /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+18 silly resolved []
+19 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+20 verbose linkStuff [ false, false, false, '/mnt/c/Users/Envy/Desktop/FileZ/Bloc' ]
+21 info linkStuff bloc-frontend-project-starter@0.0.2
+22 verbose linkBins bloc-frontend-project-starter@0.0.2
+23 verbose linkMans bloc-frontend-project-starter@0.0.2
+24 verbose rebuildBundles bloc-frontend-project-starter@0.0.2
+25 verbose rebuildBundles [ '.bin',
+25 verbose rebuildBundles   'abbrev',
+25 verbose rebuildBundles   'argparse',
+25 verbose rebuildBundles   'async',
+25 verbose rebuildBundles   'coffee-script',
+25 verbose rebuildBundles   'colors',
+25 verbose rebuildBundles   'connect-modrewrite',
+25 verbose rebuildBundles   'dateformat',
+25 verbose rebuildBundles   'debug',
+25 verbose rebuildBundles   'es5-shim',
+25 verbose rebuildBundles   'esprima',
+25 verbose rebuildBundles   'eventemitter2',
+25 verbose rebuildBundles   'exit',
+25 verbose rebuildBundles   'faye-websocket',
+25 verbose rebuildBundles   'findup-sync',
+25 verbose rebuildBundles   'gaze',
+25 verbose rebuildBundles   'getobject',
+25 verbose rebuildBundles   'glob',
+25 verbose rebuildBundles   'globule',
+25 verbose rebuildBundles   'graceful-fs',
+25 verbose rebuildBundles   'grunt',
+25 verbose rebuildBundles   'grunt-cli',
+25 verbose rebuildBundles   'grunt-contrib',
+25 verbose rebuildBundles   'grunt-contrib-clean',
+25 verbose rebuildBundles   'grunt-contrib-coffee',
+25 verbose rebuildBundles   'grunt-contrib-compass',
+25 verbose rebuildBundles   'grunt-contrib-compress',
+25 verbose rebuildBundles   'grunt-contrib-concat',
+25 verbose rebuildBundles   'grunt-contrib-connect',
+25 verbose rebuildBundles   'grunt-contrib-copy',
+25 verbose rebuildBundles   'grunt-contrib-csslint',
+25 verbose rebuildBundles   'grunt-contrib-cssmin',
+25 verbose rebuildBundles   'grunt-contrib-handlebars',
+25 verbose rebuildBundles   'grunt-contrib-htmlmin',
+25 verbose rebuildBundles   'grunt-contrib-imagemin',
+25 verbose rebuildBundles   'grunt-contrib-jade',
+25 verbose rebuildBundles   'grunt-contrib-jasmine',
+25 verbose rebuildBundles   'grunt-contrib-jshint',
+25 verbose rebuildBundles   'grunt-contrib-jst',
+25 verbose rebuildBundles   'grunt-contrib-less',
+25 verbose rebuildBundles   'grunt-contrib-nodeunit',
+25 verbose rebuildBundles   'grunt-contrib-qunit',
+25 verbose rebuildBundles   'grunt-contrib-requirejs',
+25 verbose rebuildBundles   'grunt-contrib-sass',
+25 verbose rebuildBundles   'grunt-contrib-stylus',
+25 verbose rebuildBundles   'grunt-contrib-symlink',
+25 verbose rebuildBundles   'grunt-contrib-uglify',
+25 verbose rebuildBundles   'grunt-contrib-watch',
+25 verbose rebuildBundles   'grunt-contrib-yuidoc',
+25 verbose rebuildBundles   'grunt-hapi',
+25 verbose rebuildBundles   'grunt-legacy-log',
+25 verbose rebuildBundles   'grunt-legacy-log-utils',
+25 verbose rebuildBundles   'grunt-legacy-util',
+25 verbose rebuildBundles   'hapi',
+25 verbose rebuildBundles   'hooker',
+25 verbose rebuildBundles   'iconv-lite',
+25 verbose rebuildBundles   'inherits',
+25 verbose rebuildBundles   'js-yaml',
+25 verbose rebuildBundles   'lodash',
+25 verbose rebuildBundles   'lru-cache',
+25 verbose rebuildBundles   'minimatch',
+25 verbose rebuildBundles   'nopt',
+25 verbose rebuildBundles   'noptify',
+25 verbose rebuildBundles   'path',
+25 verbose rebuildBundles   'qs',
+25 verbose rebuildBundles   'resolve',
+25 verbose rebuildBundles   'rimraf',
+25 verbose rebuildBundles   'sigmund',
+25 verbose rebuildBundles   'tiny-lr-fork',
+25 verbose rebuildBundles   'underscore',
+25 verbose rebuildBundles   'underscore.string',
+25 verbose rebuildBundles   'which' ]
+26 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/abbrev
+27 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/abbrev
+28 info preinstall abbrev@1.1.0
+29 verbose linkStuff [ false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+30 info linkStuff abbrev@1.1.0
+31 verbose linkBins abbrev@1.1.0
+32 verbose linkMans abbrev@1.1.0
+33 verbose rebuildBundles abbrev@1.1.0
+34 info install abbrev@1.1.0
+35 info postinstall abbrev@1.1.0
+36 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/argparse
+37 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/argparse
+38 info preinstall argparse@0.1.16
+39 verbose linkStuff [ false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+40 info linkStuff argparse@0.1.16
+41 verbose linkBins argparse@0.1.16
+42 verbose linkMans argparse@0.1.16
+43 verbose rebuildBundles argparse@0.1.16
+44 verbose rebuildBundles [ 'underscore.string' ]
+45 info install argparse@0.1.16
+46 info postinstall argparse@0.1.16
+47 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/async
+48 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/async
+49 info preinstall async@0.1.22
+50 verbose linkStuff [ false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+51 info linkStuff async@0.1.22
+52 verbose linkBins async@0.1.22
+53 verbose linkMans async@0.1.22
+54 verbose rebuildBundles async@0.1.22
+55 info install async@0.1.22
+56 info postinstall async@0.1.22
+57 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/coffee-script
+58 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/coffee-script
+59 info preinstall coffee-script@1.3.3
+60 verbose linkStuff [ false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   false,
+60 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+61 info linkStuff coffee-script@1.3.3
+62 verbose linkBins coffee-script@1.3.3
+63 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+63 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+63 verbose link bins   false ]
+64 verbose linkMans coffee-script@1.3.3
+65 verbose rebuildBundles coffee-script@1.3.3
+66 info install coffee-script@1.3.3
+67 info postinstall coffee-script@1.3.3
+68 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/colors
+69 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/colors
+70 info preinstall colors@0.6.2
+71 verbose linkStuff [ false,
+71 verbose linkStuff   false,
+71 verbose linkStuff   false,
+71 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+72 info linkStuff colors@0.6.2
+73 verbose linkBins colors@0.6.2
+74 verbose linkMans colors@0.6.2
+75 verbose rebuildBundles colors@0.6.2
+76 info install colors@0.6.2
+77 info postinstall colors@0.6.2
+78 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/dateformat
+79 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/dateformat
+80 info preinstall dateformat@1.0.2-1.2.3
+81 verbose linkStuff [ false,
+81 verbose linkStuff   false,
+81 verbose linkStuff   false,
+81 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+82 info linkStuff dateformat@1.0.2-1.2.3
+83 verbose linkBins dateformat@1.0.2-1.2.3
+84 verbose linkMans dateformat@1.0.2-1.2.3
+85 verbose rebuildBundles dateformat@1.0.2-1.2.3
+86 info install dateformat@1.0.2-1.2.3
+87 info postinstall dateformat@1.0.2-1.2.3
+88 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/debug
+89 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/debug
+90 info preinstall debug@0.7.4
+91 verbose linkStuff [ false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+92 info linkStuff debug@0.7.4
+93 verbose linkBins debug@0.7.4
+94 verbose linkMans debug@0.7.4
+95 verbose rebuildBundles debug@0.7.4
+96 info install debug@0.7.4
+97 info postinstall debug@0.7.4
+98 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/esprima
+99 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/esprima
+100 info preinstall esprima@1.0.4
+101 verbose linkStuff [ false,
+101 verbose linkStuff   false,
+101 verbose linkStuff   false,
+101 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+102 info linkStuff esprima@1.0.4
+103 verbose linkBins esprima@1.0.4
+104 verbose link bins [ { esparse: './bin/esparse.js',
+104 verbose link bins     esvalidate: './bin/esvalidate.js' },
+104 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+104 verbose link bins   false ]
+105 verbose linkMans esprima@1.0.4
+106 verbose rebuildBundles esprima@1.0.4
+107 info install esprima@1.0.4
+108 info postinstall esprima@1.0.4
+109 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/eventemitter2
+110 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/eventemitter2
+111 info preinstall eventemitter2@0.4.14
+112 verbose linkStuff [ false,
+112 verbose linkStuff   false,
+112 verbose linkStuff   false,
+112 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+113 info linkStuff eventemitter2@0.4.14
+114 verbose linkBins eventemitter2@0.4.14
+115 verbose linkMans eventemitter2@0.4.14
+116 verbose rebuildBundles eventemitter2@0.4.14
+117 info install eventemitter2@0.4.14
+118 info postinstall eventemitter2@0.4.14
+119 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/exit
+120 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/exit
+121 info preinstall exit@0.1.2
+122 verbose linkStuff [ false,
+122 verbose linkStuff   false,
+122 verbose linkStuff   false,
+122 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+123 info linkStuff exit@0.1.2
+124 verbose linkBins exit@0.1.2
+125 verbose linkMans exit@0.1.2
+126 verbose rebuildBundles exit@0.1.2
+127 info install exit@0.1.2
+128 info postinstall exit@0.1.2
+129 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/faye-websocket
+130 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/faye-websocket
+131 info preinstall faye-websocket@0.4.4
+132 verbose linkStuff [ false,
+132 verbose linkStuff   false,
+132 verbose linkStuff   false,
+132 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+133 info linkStuff faye-websocket@0.4.4
+134 verbose linkBins faye-websocket@0.4.4
+135 verbose linkMans faye-websocket@0.4.4
+136 verbose rebuildBundles faye-websocket@0.4.4
+137 info install faye-websocket@0.4.4
+138 info postinstall faye-websocket@0.4.4
+139 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/findup-sync
+140 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/findup-sync
+141 info preinstall findup-sync@0.1.3
+142 verbose linkStuff [ false,
+142 verbose linkStuff   false,
+142 verbose linkStuff   false,
+142 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+143 info linkStuff findup-sync@0.1.3
+144 verbose linkBins findup-sync@0.1.3
+145 verbose linkMans findup-sync@0.1.3
+146 verbose rebuildBundles findup-sync@0.1.3
+147 verbose rebuildBundles [ 'glob', 'lodash', 'minimatch' ]
+148 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/findup-sync/node_modules/minimatch
+149 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/findup-sync/node_modules/minimatch
+150 info preinstall minimatch@0.3.0
+151 verbose linkStuff [ false,
+151 verbose linkStuff   false,
+151 verbose linkStuff   false,
+151 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/findup-sync/node_modules' ]
+152 info linkStuff minimatch@0.3.0
+153 verbose linkBins minimatch@0.3.0
+154 verbose linkMans minimatch@0.3.0
+155 verbose rebuildBundles minimatch@0.3.0
+156 info install minimatch@0.3.0
+157 info postinstall minimatch@0.3.0
+158 info install findup-sync@0.1.3
+159 info postinstall findup-sync@0.1.3
+160 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/gaze
+161 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/gaze
+162 info preinstall gaze@0.5.2
+163 verbose linkStuff [ false,
+163 verbose linkStuff   false,
+163 verbose linkStuff   false,
+163 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+164 info linkStuff gaze@0.5.2
+165 verbose linkBins gaze@0.5.2
+166 verbose linkMans gaze@0.5.2
+167 verbose rebuildBundles gaze@0.5.2
+168 info install gaze@0.5.2
+169 info postinstall gaze@0.5.2
+170 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/getobject
+171 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/getobject
+172 info preinstall getobject@0.1.0
+173 verbose linkStuff [ false,
+173 verbose linkStuff   false,
+173 verbose linkStuff   false,
+173 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+174 info linkStuff getobject@0.1.0
+175 verbose linkBins getobject@0.1.0
+176 verbose linkMans getobject@0.1.0
+177 verbose rebuildBundles getobject@0.1.0
+178 info install getobject@0.1.0
+179 info postinstall getobject@0.1.0
+180 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/glob
+181 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/glob
+182 info preinstall glob@3.1.21
+183 verbose linkStuff [ false,
+183 verbose linkStuff   false,
+183 verbose linkStuff   false,
+183 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+184 info linkStuff glob@3.1.21
+185 verbose linkBins glob@3.1.21
+186 verbose linkMans glob@3.1.21
+187 verbose rebuildBundles glob@3.1.21
+188 verbose rebuildBundles [ 'inherits' ]
+189 info install glob@3.1.21
+190 info postinstall glob@3.1.21
+191 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/globule
+192 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/globule
+193 info preinstall globule@0.1.0
+194 verbose linkStuff [ false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   false,
+194 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+195 info linkStuff globule@0.1.0
+196 verbose linkBins globule@0.1.0
+197 verbose linkMans globule@0.1.0
+198 verbose rebuildBundles globule@0.1.0
+199 verbose rebuildBundles [ 'lodash' ]
+200 info install globule@0.1.0
+201 info postinstall globule@0.1.0
+202 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/graceful-fs
+203 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/graceful-fs
+204 info preinstall graceful-fs@1.2.3
+205 verbose linkStuff [ false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+206 info linkStuff graceful-fs@1.2.3
+207 verbose linkBins graceful-fs@1.2.3
+208 verbose linkMans graceful-fs@1.2.3
+209 verbose rebuildBundles graceful-fs@1.2.3
+210 info install graceful-fs@1.2.3
+211 info postinstall graceful-fs@1.2.3
+212 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib
+213 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib
+214 info preinstall grunt-contrib@0.11.0
+215 verbose linkStuff [ false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+216 info linkStuff grunt-contrib@0.11.0
+217 verbose linkBins grunt-contrib@0.11.0
+218 verbose linkMans grunt-contrib@0.11.0
+219 verbose rebuildBundles grunt-contrib@0.11.0
+220 verbose rebuildBundles [ 'matchdep' ]
+221 info install grunt-contrib@0.11.0
+222 info postinstall grunt-contrib@0.11.0
+223 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-clean
+224 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-clean
+225 info preinstall grunt-contrib-clean@1.0.0
+226 verbose linkStuff [ false,
+226 verbose linkStuff   false,
+226 verbose linkStuff   false,
+226 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+227 info linkStuff grunt-contrib-clean@1.0.0
+228 verbose linkBins grunt-contrib-clean@1.0.0
+229 verbose linkMans grunt-contrib-clean@1.0.0
+230 verbose rebuildBundles grunt-contrib-clean@1.0.0
+231 verbose rebuildBundles [ '.bin', 'async', 'rimraf' ]
+232 info install grunt-contrib-clean@1.0.0
+233 info postinstall grunt-contrib-clean@1.0.0
+234 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-coffee
+235 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-coffee
+236 info preinstall grunt-contrib-coffee@0.10.1
+237 verbose linkStuff [ false,
+237 verbose linkStuff   false,
+237 verbose linkStuff   false,
+237 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+238 info linkStuff grunt-contrib-coffee@0.10.1
+239 verbose linkBins grunt-contrib-coffee@0.10.1
+240 verbose linkMans grunt-contrib-coffee@0.10.1
+241 verbose rebuildBundles grunt-contrib-coffee@0.10.1
+242 info install grunt-contrib-coffee@0.10.1
+243 info postinstall grunt-contrib-coffee@0.10.1
+244 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-compass
+245 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-compass
+246 info preinstall grunt-contrib-compass@0.7.2
+247 verbose linkStuff [ false,
+247 verbose linkStuff   false,
+247 verbose linkStuff   false,
+247 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+248 info linkStuff grunt-contrib-compass@0.7.2
+249 verbose linkBins grunt-contrib-compass@0.7.2
+250 verbose linkMans grunt-contrib-compass@0.7.2
+251 verbose rebuildBundles grunt-contrib-compass@0.7.2
+252 verbose rebuildBundles [ 'async', 'dargs', 'tmp' ]
+253 info install grunt-contrib-compass@0.7.2
+254 info postinstall grunt-contrib-compass@0.7.2
+255 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-compress
+256 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-compress
+257 info preinstall grunt-contrib-compress@0.8.0
+258 verbose linkStuff [ false,
+258 verbose linkStuff   false,
+258 verbose linkStuff   false,
+258 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+259 info linkStuff grunt-contrib-compress@0.8.0
+260 verbose linkBins grunt-contrib-compress@0.8.0
+261 verbose linkMans grunt-contrib-compress@0.8.0
+262 verbose rebuildBundles grunt-contrib-compress@0.8.0
+263 verbose rebuildBundles [ 'archiver', 'prettysize' ]
+264 info install grunt-contrib-compress@0.8.0
+265 info postinstall grunt-contrib-compress@0.8.0
+266 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-concat
+267 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-concat
+268 info preinstall grunt-contrib-concat@0.4.0
+269 verbose linkStuff [ false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+270 info linkStuff grunt-contrib-concat@0.4.0
+271 verbose linkBins grunt-contrib-concat@0.4.0
+272 verbose linkMans grunt-contrib-concat@0.4.0
+273 verbose rebuildBundles grunt-contrib-concat@0.4.0
+274 verbose rebuildBundles [ 'chalk' ]
+275 info install grunt-contrib-concat@0.4.0
+276 info postinstall grunt-contrib-concat@0.4.0
+277 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-connect
+278 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-connect
+279 info preinstall grunt-contrib-connect@0.7.1
+280 verbose linkStuff [ false,
+280 verbose linkStuff   false,
+280 verbose linkStuff   false,
+280 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+281 info linkStuff grunt-contrib-connect@0.7.1
+282 verbose linkBins grunt-contrib-connect@0.7.1
+283 verbose linkMans grunt-contrib-connect@0.7.1
+284 verbose rebuildBundles grunt-contrib-connect@0.7.1
+285 verbose rebuildBundles [ 'async', 'connect', 'connect-livereload', 'open', 'portscanner' ]
+286 info install grunt-contrib-connect@0.7.1
+287 info postinstall grunt-contrib-connect@0.7.1
+288 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+289 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+290 info preinstall grunt-contrib-copy@0.5.0
+291 verbose linkStuff [ false,
+291 verbose linkStuff   false,
+291 verbose linkStuff   false,
+291 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+292 info linkStuff grunt-contrib-copy@0.5.0
+293 verbose linkBins grunt-contrib-copy@0.5.0
+294 verbose linkMans grunt-contrib-copy@0.5.0
+295 verbose rebuildBundles grunt-contrib-copy@0.5.0
+296 info install grunt-contrib-copy@0.5.0
+297 info postinstall grunt-contrib-copy@0.5.0
+298 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-csslint
+299 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-csslint
+300 info preinstall grunt-contrib-csslint@0.2.0
+301 verbose linkStuff [ false,
+301 verbose linkStuff   false,
+301 verbose linkStuff   false,
+301 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+302 info linkStuff grunt-contrib-csslint@0.2.0
+303 verbose linkBins grunt-contrib-csslint@0.2.0
+304 verbose linkMans grunt-contrib-csslint@0.2.0
+305 verbose rebuildBundles grunt-contrib-csslint@0.2.0
+306 verbose rebuildBundles [ '.bin', 'csslint' ]
+307 info install grunt-contrib-csslint@0.2.0
+308 info postinstall grunt-contrib-csslint@0.2.0
+309 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-cssmin
+310 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-cssmin
+311 info preinstall grunt-contrib-cssmin@0.9.0
+312 verbose linkStuff [ false,
+312 verbose linkStuff   false,
+312 verbose linkStuff   false,
+312 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+313 info linkStuff grunt-contrib-cssmin@0.9.0
+314 verbose linkBins grunt-contrib-cssmin@0.9.0
+315 verbose linkMans grunt-contrib-cssmin@0.9.0
+316 verbose rebuildBundles grunt-contrib-cssmin@0.9.0
+317 verbose rebuildBundles [ '.bin', 'chalk', 'clean-css', 'maxmin' ]
+318 info install grunt-contrib-cssmin@0.9.0
+319 info postinstall grunt-contrib-cssmin@0.9.0
+320 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-handlebars
+321 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-handlebars
+322 info preinstall grunt-contrib-handlebars@0.8.0
+323 verbose linkStuff [ false,
+323 verbose linkStuff   false,
+323 verbose linkStuff   false,
+323 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+324 info linkStuff grunt-contrib-handlebars@0.8.0
+325 verbose linkBins grunt-contrib-handlebars@0.8.0
+326 verbose linkMans grunt-contrib-handlebars@0.8.0
+327 verbose rebuildBundles grunt-contrib-handlebars@0.8.0
+328 info install grunt-contrib-handlebars@0.8.0
+329 info postinstall grunt-contrib-handlebars@0.8.0
+330 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-htmlmin
+331 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-htmlmin
+332 info preinstall grunt-contrib-htmlmin@0.2.0
+333 verbose linkStuff [ false,
+333 verbose linkStuff   false,
+333 verbose linkStuff   false,
+333 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+334 info linkStuff grunt-contrib-htmlmin@0.2.0
+335 verbose linkBins grunt-contrib-htmlmin@0.2.0
+336 verbose linkMans grunt-contrib-htmlmin@0.2.0
+337 verbose rebuildBundles grunt-contrib-htmlmin@0.2.0
+338 verbose rebuildBundles [ '.bin', 'chalk', 'each-async', 'html-minifier', 'pretty-bytes' ]
+339 info install grunt-contrib-htmlmin@0.2.0
+340 info postinstall grunt-contrib-htmlmin@0.2.0
+341 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin
+342 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin
+343 info preinstall grunt-contrib-imagemin@0.7.2
+344 verbose linkStuff [ false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   false,
+344 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+345 info linkStuff grunt-contrib-imagemin@0.7.2
+346 verbose linkBins grunt-contrib-imagemin@0.7.2
+347 verbose linkMans grunt-contrib-imagemin@0.7.2
+348 verbose rebuildBundles grunt-contrib-imagemin@0.7.2
+349 verbose rebuildBundles [ '.bin', 'async', 'chalk', 'imagemin', 'pretty-bytes' ]
+350 info install grunt-contrib-imagemin@0.7.2
+351 info postinstall grunt-contrib-imagemin@0.7.2
+352 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jade
+353 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jade
+354 info preinstall grunt-contrib-jade@0.11.0
+355 verbose linkStuff [ false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   false,
+355 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+356 info linkStuff grunt-contrib-jade@0.11.0
+357 verbose linkBins grunt-contrib-jade@0.11.0
+358 verbose linkMans grunt-contrib-jade@0.11.0
+359 verbose rebuildBundles grunt-contrib-jade@0.11.0
+360 info install grunt-contrib-jade@0.11.0
+361 info postinstall grunt-contrib-jade@0.11.0
+362 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jasmine
+363 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jasmine
+364 info preinstall grunt-contrib-jasmine@0.6.5
+365 verbose linkStuff [ false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   false,
+365 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+366 info linkStuff grunt-contrib-jasmine@0.6.5
+367 verbose linkBins grunt-contrib-jasmine@0.6.5
+368 verbose linkMans grunt-contrib-jasmine@0.6.5
+369 verbose rebuildBundles grunt-contrib-jasmine@0.6.5
+370 info install grunt-contrib-jasmine@0.6.5
+371 info postinstall grunt-contrib-jasmine@0.6.5
+372 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jshint
+373 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jshint
+374 info preinstall grunt-contrib-jshint@0.10.0
+375 verbose linkStuff [ false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   false,
+375 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+376 info linkStuff grunt-contrib-jshint@0.10.0
+377 verbose linkBins grunt-contrib-jshint@0.10.0
+378 verbose linkMans grunt-contrib-jshint@0.10.0
+379 verbose rebuildBundles grunt-contrib-jshint@0.10.0
+380 info install grunt-contrib-jshint@0.10.0
+381 info postinstall grunt-contrib-jshint@0.10.0
+382 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jst
+383 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jst
+384 info preinstall grunt-contrib-jst@0.6.0
+385 verbose linkStuff [ false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+386 info linkStuff grunt-contrib-jst@0.6.0
+387 verbose linkBins grunt-contrib-jst@0.6.0
+388 verbose linkMans grunt-contrib-jst@0.6.0
+389 verbose rebuildBundles grunt-contrib-jst@0.6.0
+390 info install grunt-contrib-jst@0.6.0
+391 info postinstall grunt-contrib-jst@0.6.0
+392 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-less
+393 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-less
+394 info preinstall grunt-contrib-less@0.11.4
+395 verbose linkStuff [ false,
+395 verbose linkStuff   false,
+395 verbose linkStuff   false,
+395 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+396 info linkStuff grunt-contrib-less@0.11.4
+397 verbose linkBins grunt-contrib-less@0.11.4
+398 verbose linkMans grunt-contrib-less@0.11.4
+399 verbose rebuildBundles grunt-contrib-less@0.11.4
+400 info install grunt-contrib-less@0.11.4
+401 info postinstall grunt-contrib-less@0.11.4
+402 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-nodeunit
+403 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-nodeunit
+404 info preinstall grunt-contrib-nodeunit@0.3.3
+405 verbose linkStuff [ false,
+405 verbose linkStuff   false,
+405 verbose linkStuff   false,
+405 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+406 info linkStuff grunt-contrib-nodeunit@0.3.3
+407 verbose linkBins grunt-contrib-nodeunit@0.3.3
+408 verbose linkMans grunt-contrib-nodeunit@0.3.3
+409 verbose rebuildBundles grunt-contrib-nodeunit@0.3.3
+410 info install grunt-contrib-nodeunit@0.3.3
+411 info postinstall grunt-contrib-nodeunit@0.3.3
+412 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-qunit
+413 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-qunit
+414 info preinstall grunt-contrib-qunit@0.4.0
+415 verbose linkStuff [ false,
+415 verbose linkStuff   false,
+415 verbose linkStuff   false,
+415 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+416 info linkStuff grunt-contrib-qunit@0.4.0
+417 verbose linkBins grunt-contrib-qunit@0.4.0
+418 verbose linkMans grunt-contrib-qunit@0.4.0
+419 verbose rebuildBundles grunt-contrib-qunit@0.4.0
+420 verbose rebuildBundles [ 'grunt-lib-phantomjs' ]
+421 info install grunt-contrib-qunit@0.4.0
+422 info postinstall grunt-contrib-qunit@0.4.0
+423 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-requirejs
+424 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-requirejs
+425 info preinstall grunt-contrib-requirejs@0.4.4
+426 verbose linkStuff [ false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+427 info linkStuff grunt-contrib-requirejs@0.4.4
+428 verbose linkBins grunt-contrib-requirejs@0.4.4
+429 verbose linkMans grunt-contrib-requirejs@0.4.4
+430 verbose rebuildBundles grunt-contrib-requirejs@0.4.4
+431 info install grunt-contrib-requirejs@0.4.4
+432 info postinstall grunt-contrib-requirejs@0.4.4
+433 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-sass
+434 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-sass
+435 info preinstall grunt-contrib-sass@0.7.4
+436 verbose linkStuff [ false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+437 info linkStuff grunt-contrib-sass@0.7.4
+438 verbose linkBins grunt-contrib-sass@0.7.4
+439 verbose linkMans grunt-contrib-sass@0.7.4
+440 verbose rebuildBundles grunt-contrib-sass@0.7.4
+441 verbose rebuildBundles [ '.bin', 'async', 'chalk', 'dargs', 'win-spawn' ]
+442 info install grunt-contrib-sass@0.7.4
+443 info postinstall grunt-contrib-sass@0.7.4
+444 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-stylus
+445 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-stylus
+446 info preinstall grunt-contrib-stylus@0.15.1
+447 verbose linkStuff [ false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   false,
+447 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+448 info linkStuff grunt-contrib-stylus@0.15.1
+449 verbose linkBins grunt-contrib-stylus@0.15.1
+450 verbose linkMans grunt-contrib-stylus@0.15.1
+451 verbose rebuildBundles grunt-contrib-stylus@0.15.1
+452 info install grunt-contrib-stylus@0.15.1
+453 info postinstall grunt-contrib-stylus@0.15.1
+454 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-symlink
+455 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-symlink
+456 info preinstall grunt-contrib-symlink@0.3.0
+457 verbose linkStuff [ false,
+457 verbose linkStuff   false,
+457 verbose linkStuff   false,
+457 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+458 info linkStuff grunt-contrib-symlink@0.3.0
+459 verbose linkBins grunt-contrib-symlink@0.3.0
+460 verbose linkMans grunt-contrib-symlink@0.3.0
+461 verbose rebuildBundles grunt-contrib-symlink@0.3.0
+462 info install grunt-contrib-symlink@0.3.0
+463 info postinstall grunt-contrib-symlink@0.3.0
+464 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-uglify
+465 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-uglify
+466 info preinstall grunt-contrib-uglify@0.4.1
+467 verbose linkStuff [ false,
+467 verbose linkStuff   false,
+467 verbose linkStuff   false,
+467 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+468 info linkStuff grunt-contrib-uglify@0.4.1
+469 verbose linkBins grunt-contrib-uglify@0.4.1
+470 verbose linkMans grunt-contrib-uglify@0.4.1
+471 verbose rebuildBundles grunt-contrib-uglify@0.4.1
+472 verbose rebuildBundles [ 'chalk', 'maxmin', 'uglify-js' ]
+473 info install grunt-contrib-uglify@0.4.1
+474 info postinstall grunt-contrib-uglify@0.4.1
+475 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-yuidoc
+476 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-yuidoc
+477 info preinstall grunt-contrib-yuidoc@0.5.2
+478 verbose linkStuff [ false,
+478 verbose linkStuff   false,
+478 verbose linkStuff   false,
+478 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+479 info linkStuff grunt-contrib-yuidoc@0.5.2
+480 verbose linkBins grunt-contrib-yuidoc@0.5.2
+481 verbose linkMans grunt-contrib-yuidoc@0.5.2
+482 verbose rebuildBundles grunt-contrib-yuidoc@0.5.2
+483 info install grunt-contrib-yuidoc@0.5.2
+484 info postinstall grunt-contrib-yuidoc@0.5.2
+485 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-log
+486 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-log
+487 info preinstall grunt-legacy-log@0.1.3
+488 verbose linkStuff [ false,
+488 verbose linkStuff   false,
+488 verbose linkStuff   false,
+488 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+489 info linkStuff grunt-legacy-log@0.1.3
+490 verbose linkBins grunt-legacy-log@0.1.3
+491 verbose linkMans grunt-legacy-log@0.1.3
+492 verbose rebuildBundles grunt-legacy-log@0.1.3
+493 verbose rebuildBundles [ 'lodash', 'underscore.string' ]
+494 info install grunt-legacy-log@0.1.3
+495 info postinstall grunt-legacy-log@0.1.3
+496 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-log-utils
+497 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-log-utils
+498 info preinstall grunt-legacy-log-utils@0.1.1
+499 verbose linkStuff [ false,
+499 verbose linkStuff   false,
+499 verbose linkStuff   false,
+499 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+500 info linkStuff grunt-legacy-log-utils@0.1.1
+501 verbose linkBins grunt-legacy-log-utils@0.1.1
+502 verbose linkMans grunt-legacy-log-utils@0.1.1
+503 verbose rebuildBundles grunt-legacy-log-utils@0.1.1
+504 verbose rebuildBundles [ 'lodash', 'underscore.string' ]
+505 info install grunt-legacy-log-utils@0.1.1
+506 info postinstall grunt-legacy-log-utils@0.1.1
+507 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-util
+508 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-legacy-util
+509 info preinstall grunt-legacy-util@0.2.0
+510 verbose linkStuff [ false,
+510 verbose linkStuff   false,
+510 verbose linkStuff   false,
+510 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+511 info linkStuff grunt-legacy-util@0.2.0
+512 verbose linkBins grunt-legacy-util@0.2.0
+513 verbose linkMans grunt-legacy-util@0.2.0
+514 verbose rebuildBundles grunt-legacy-util@0.2.0
+515 info install grunt-legacy-util@0.2.0
+516 info postinstall grunt-legacy-util@0.2.0
+517 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/hooker
+518 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/hooker
+519 info preinstall hooker@0.2.3
+520 verbose linkStuff [ false,
+520 verbose linkStuff   false,
+520 verbose linkStuff   false,
+520 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+521 info linkStuff hooker@0.2.3
+522 verbose linkBins hooker@0.2.3
+523 verbose linkMans hooker@0.2.3
+524 verbose rebuildBundles hooker@0.2.3
+525 info install hooker@0.2.3
+526 info postinstall hooker@0.2.3
+527 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/iconv-lite
+528 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/iconv-lite
+529 info preinstall iconv-lite@0.2.11
+530 verbose linkStuff [ false,
+530 verbose linkStuff   false,
+530 verbose linkStuff   false,
+530 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+531 info linkStuff iconv-lite@0.2.11
+532 verbose linkBins iconv-lite@0.2.11
+533 verbose linkMans iconv-lite@0.2.11
+534 verbose rebuildBundles iconv-lite@0.2.11
+535 info install iconv-lite@0.2.11
+536 info postinstall iconv-lite@0.2.11
+537 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/inherits
+538 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/inherits
+539 info preinstall inherits@2.0.3
+540 verbose linkStuff [ false,
+540 verbose linkStuff   false,
+540 verbose linkStuff   false,
+540 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+541 info linkStuff inherits@2.0.3
+542 verbose linkBins inherits@2.0.3
+543 verbose linkMans inherits@2.0.3
+544 verbose rebuildBundles inherits@2.0.3
+545 info install inherits@2.0.3
+546 info postinstall inherits@2.0.3
+547 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/js-yaml
+548 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/js-yaml
+549 info preinstall js-yaml@2.0.5
+550 verbose linkStuff [ false,
+550 verbose linkStuff   false,
+550 verbose linkStuff   false,
+550 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+551 info linkStuff js-yaml@2.0.5
+552 verbose linkBins js-yaml@2.0.5
+553 verbose link bins [ { 'js-yaml': 'bin/js-yaml.js' },
+553 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+553 verbose link bins   false ]
+554 verbose linkMans js-yaml@2.0.5
+555 verbose rebuildBundles js-yaml@2.0.5
+556 info install js-yaml@2.0.5
+557 info postinstall js-yaml@2.0.5
+558 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash
+559 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash
+560 info preinstall lodash@0.9.2
+561 verbose linkStuff [ false,
+561 verbose linkStuff   false,
+561 verbose linkStuff   false,
+561 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+562 info linkStuff lodash@0.9.2
+563 verbose linkBins lodash@0.9.2
+564 verbose linkMans lodash@0.9.2
+565 verbose rebuildBundles lodash@0.9.2
+566 info install lodash@0.9.2
+567 info postinstall lodash@0.9.2
+568 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lru-cache
+569 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lru-cache
+570 info preinstall lru-cache@2.7.3
+571 verbose linkStuff [ false,
+571 verbose linkStuff   false,
+571 verbose linkStuff   false,
+571 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+572 info linkStuff lru-cache@2.7.3
+573 verbose linkBins lru-cache@2.7.3
+574 verbose linkMans lru-cache@2.7.3
+575 verbose rebuildBundles lru-cache@2.7.3
+576 info install lru-cache@2.7.3
+577 info postinstall lru-cache@2.7.3
+578 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/minimatch
+579 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/minimatch
+580 info preinstall minimatch@0.2.14
+581 verbose linkStuff [ false,
+581 verbose linkStuff   false,
+581 verbose linkStuff   false,
+581 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+582 info linkStuff minimatch@0.2.14
+583 verbose linkBins minimatch@0.2.14
+584 verbose linkMans minimatch@0.2.14
+585 verbose rebuildBundles minimatch@0.2.14
+586 info install minimatch@0.2.14
+587 info postinstall minimatch@0.2.14
+588 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/nopt
+589 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/nopt
+590 info preinstall nopt@1.0.10
+591 verbose linkStuff [ false,
+591 verbose linkStuff   false,
+591 verbose linkStuff   false,
+591 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+592 info linkStuff nopt@1.0.10
+593 verbose linkBins nopt@1.0.10
+594 verbose link bins [ { nopt: './bin/nopt.js' },
+594 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+594 verbose link bins   false ]
+595 verbose linkMans nopt@1.0.10
+596 verbose rebuildBundles nopt@1.0.10
+597 info install nopt@1.0.10
+598 info postinstall nopt@1.0.10
+599 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/noptify
+600 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/noptify
+601 info preinstall noptify@0.0.3
+602 verbose linkStuff [ false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   false,
+602 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+603 info linkStuff noptify@0.0.3
+604 verbose linkBins noptify@0.0.3
+605 verbose linkMans noptify@0.0.3
+606 verbose rebuildBundles noptify@0.0.3
+607 verbose rebuildBundles [ '.bin', 'nopt' ]
+608 info install noptify@0.0.3
+609 info postinstall noptify@0.0.3
+610 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs
+611 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs
+612 info preinstall qs@1.2.2
+613 verbose linkStuff [ false,
+613 verbose linkStuff   false,
+613 verbose linkStuff   false,
+613 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+614 info linkStuff qs@1.2.2
+615 verbose linkBins qs@1.2.2
+616 verbose linkMans qs@1.2.2
+617 verbose rebuildBundles qs@1.2.2
+618 info install qs@1.2.2
+619 info postinstall qs@1.2.2
+620 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/resolve
+621 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/resolve
+622 info preinstall resolve@0.3.1
+623 verbose linkStuff [ false,
+623 verbose linkStuff   false,
+623 verbose linkStuff   false,
+623 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+624 info linkStuff resolve@0.3.1
+625 verbose linkBins resolve@0.3.1
+626 verbose linkMans resolve@0.3.1
+627 verbose rebuildBundles resolve@0.3.1
+628 info install resolve@0.3.1
+629 info postinstall resolve@0.3.1
+630 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/rimraf
+631 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/rimraf
+632 info preinstall rimraf@2.2.8
+633 verbose linkStuff [ false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   false,
+633 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+634 info linkStuff rimraf@2.2.8
+635 verbose linkBins rimraf@2.2.8
+636 verbose link bins [ { rimraf: './bin.js' },
+636 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+636 verbose link bins   false ]
+637 verbose linkMans rimraf@2.2.8
+638 verbose rebuildBundles rimraf@2.2.8
+639 info install rimraf@2.2.8
+640 info postinstall rimraf@2.2.8
+641 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/sigmund
+642 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/sigmund
+643 info preinstall sigmund@1.0.1
+644 verbose linkStuff [ false,
+644 verbose linkStuff   false,
+644 verbose linkStuff   false,
+644 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+645 info linkStuff sigmund@1.0.1
+646 verbose linkBins sigmund@1.0.1
+647 verbose linkMans sigmund@1.0.1
+648 verbose rebuildBundles sigmund@1.0.1
+649 info install sigmund@1.0.1
+650 info postinstall sigmund@1.0.1
+651 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/tiny-lr-fork
+652 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/tiny-lr-fork
+653 info preinstall tiny-lr-fork@0.0.5
+654 verbose linkStuff [ false,
+654 verbose linkStuff   false,
+654 verbose linkStuff   false,
+654 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+655 info linkStuff tiny-lr-fork@0.0.5
+656 verbose linkBins tiny-lr-fork@0.0.5
+657 verbose link bins [ { 'tiny-lr-fork': './bin/tiny-lr' },
+657 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+657 verbose link bins   false ]
+658 verbose linkMans tiny-lr-fork@0.0.5
+659 verbose rebuildBundles tiny-lr-fork@0.0.5
+660 verbose rebuildBundles [ 'qs' ]
+661 info install tiny-lr-fork@0.0.5
+662 info postinstall tiny-lr-fork@0.0.5
+663 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/underscore
+664 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/underscore
+665 info preinstall underscore@1.7.0
+666 verbose linkStuff [ false,
+666 verbose linkStuff   false,
+666 verbose linkStuff   false,
+666 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+667 info linkStuff underscore@1.7.0
+668 verbose linkBins underscore@1.7.0
+669 verbose linkMans underscore@1.7.0
+670 verbose rebuildBundles underscore@1.7.0
+671 info install underscore@1.7.0
+672 info postinstall underscore@1.7.0
+673 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/underscore.string
+674 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/underscore.string
+675 info preinstall underscore.string@2.2.1
+676 verbose linkStuff [ false,
+676 verbose linkStuff   false,
+676 verbose linkStuff   false,
+676 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+677 info linkStuff underscore.string@2.2.1
+678 verbose linkBins underscore.string@2.2.1
+679 verbose linkMans underscore.string@2.2.1
+680 verbose rebuildBundles underscore.string@2.2.1
+681 info install underscore.string@2.2.1
+682 info postinstall underscore.string@2.2.1
+683 verbose rebuild bundle /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/which
+684 info build /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/which
+685 info preinstall which@1.0.9
+686 verbose linkStuff [ false,
+686 verbose linkStuff   false,
+686 verbose linkStuff   false,
+686 verbose linkStuff   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules' ]
+687 info linkStuff which@1.0.9
+688 verbose linkBins which@1.0.9
+689 verbose link bins [ { which: './bin/which' },
+689 verbose link bins   '/mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/.bin',
+689 verbose link bins   false ]
+690 verbose linkMans which@1.0.9
+691 verbose rebuildBundles which@1.0.9
+692 info install which@1.0.9
+693 info postinstall which@1.0.9
+694 info install bloc-frontend-project-starter@0.0.2
+695 info postinstall bloc-frontend-project-starter@0.0.2
+696 info prepublish bloc-frontend-project-starter@0.0.2
+697 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-coffee requires coffee-script@'~1.7.0' but will load
+697 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/coffee-script,
+697 warn unmet dependency which is version 1.3.3
+698 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-coffee requires lodash@'~2.4.1' but will load
+698 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+698 warn unmet dependency which is version 0.9.2
+699 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jasmine requires rimraf@'~2.1.4' but will load
+699 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/rimraf,
+699 warn unmet dependency which is version 2.2.8
+700 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jasmine requires lodash@'~2.4.1' but will load
+700 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+700 warn unmet dependency which is version 0.9.2
+701 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jasmine requires es5-shim@'~2.3.0' but will load
+701 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/es5-shim,
+701 warn unmet dependency which is version 4.5.9
+702 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-jst requires lodash@'~2.4.1' but will load
+702 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+702 warn unmet dependency which is version 0.9.2
+703 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-less requires async@'^0.2.10' but will load
+703 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/async,
+703 warn unmet dependency which is version 0.1.22
+704 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-less requires lodash@'^2.4.1' but will load
+704 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+704 warn unmet dependency which is version 0.9.2
+705 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-stylus requires async@'^0.8.0' but will load
+705 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/async,
+705 warn unmet dependency which is version 0.1.22
+706 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-stylus requires lodash@'~2.4.1' but will load
+706 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+706 warn unmet dependency which is version 0.9.2
+707 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-compress/node_modules/archiver requires lodash@'~2.4.1' but will load
+707 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/lodash,
+707 warn unmet dependency which is version 0.9.2
+708 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-connect/node_modules/connect requires qs@'0.6.6' but will load
+708 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs,
+708 warn unmet dependency which is version 1.2.2
+709 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-connect/node_modules/portscanner requires async@'0.1.15' but will load
+709 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-connect/node_modules/async,
+709 warn unmet dependency which is version 0.2.10
+710 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/node_modules/request requires qs@'~5.2.0' but will load
+710 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs,
+710 warn unmet dependency which is version 1.2.2
+711 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-build/node_modules/download/node_modules/request requires qs@'~6.4.0' but will load
+711 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs,
+711 warn unmet dependency which is version 1.2.2
+712 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-gifsicle/node_modules/gifsicle/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires mkdirp@'^0.3.5' but will load
+712 warn unmet dependency undefined,
+712 warn unmet dependency which is version undefined
+713 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-jpegtran/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress requires mkdirp@'^0.3.5' but will load
+713 warn unmet dependency undefined,
+713 warn unmet dependency which is version undefined
+714 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-build/node_modules/download/node_modules/request requires qs@'~6.4.0' but will load
+714 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs,
+714 warn unmet dependency which is version 1.2.2
+715 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-pngquant/node_modules/pngquant-bin/node_modules/bin-wrapper/node_modules/download/node_modules/request requires qs@'~6.4.0' but will load
+715 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/qs,
+715 warn unmet dependency which is version 1.2.2
+716 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo requires js-yaml@'~2.1.0' but will load
+716 warn unmet dependency /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular/node_modules/js-yaml,
+716 warn unmet dependency which is version 2.0.5
+717 error peerinvalid The package grunt-contrib-clean does not satisfy its siblings' peerDependencies requirements!
+717 error peerinvalid Peer grunt-contrib@0.11.0 wants grunt-contrib-clean@~0.5.0
+718 error System Linux 3.4.0+
+719 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+720 error cwd /mnt/c/Users/Envy/Desktop/FileZ/Bloc/bloc-jams-angular
+721 error node -v v0.10.25
+722 error npm -v 1.3.10
+723 error code EPEERINVALID
+724 verbose exit [ 1, true ]
