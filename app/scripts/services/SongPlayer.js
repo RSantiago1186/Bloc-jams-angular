@@ -1,10 +1,10 @@
 (function() {
-    function SongPlayer(Fixtures) {
+    function SongPlayer(fixtures) {
         var SongPlayer = {};
-        var currentAlbum = Fixtures.getAlbum();
+        var currentAlbum = fixtures.getAlbum();
         var getSongIndex = function(song) {
             return currentAlbum.songs.indexOf(song);
-        }
+        };
         SongPlayer.currentSong = null;
         var currentBuzzObject = null;
         var setSong = function(song) {
