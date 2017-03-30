@@ -1,5 +1,5 @@
 (function() {
-    function SongPlayer($rootScope, fixtures) {
+    function SongPlayer($rootScope, Fixtures) {
         var SongPlayer = {};
 
         var currentAlbum = fixtures.getAlbum();
